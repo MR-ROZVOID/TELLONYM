@@ -1,5 +1,5 @@
 @echo off
-title Tellonym Bot Setup & Runner
+title Tellonym Bot Setup
 color 0A
 
 echo ==========================================
@@ -14,7 +14,7 @@ IF %ERRORLEVEL% NEQ 0 (
     echo [*] Downloading Python 3.11...
     curl -o python-installer.exe https://www.python.org/ftp/python/3.11.8/python-3.11.8-amd64.exe
     
-    echo [*] Installing Python (This may take a minute)...
+    echo [*] Installing Python - Please wait...
     start /wait python-installer.exe /quiet InstallAllUsers=0 PrependPath=1 Include_test=0
     
     echo [+] Python installation finished. Cleaning up...
