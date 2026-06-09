@@ -14,6 +14,7 @@ import time
 import random
 import string
 import argparse
+import requests
 from datetime import datetime
 
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
